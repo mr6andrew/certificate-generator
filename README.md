@@ -1,0 +1,114 @@
+# Certificate Generator
+
+A full-stack web application for generating professional enrollment certificates in PDF format.
+
+## Features
+
+- **Modern React Frontend**: Clean, responsive UI with form validation
+- **Node.js Backend**: RESTful API for PDF generation
+- **PDF Generation**: Professional certificate layout with proper formatting
+- **Real-time Download**: Automatic PDF download after generation
+- **Professional Design**: Clean borders, typography, and layout
+
+## Tech Stack
+
+### Frontend
+- React.js
+- CSS3 with modern styling
+- Fetch API for backend communication
+
+### Backend
+- Node.js
+- Express.js
+- PDFKit for PDF generation
+- CORS enabled
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/mr6andrew/certificate-generator.git
+   cd certificate-generator
+   ```
+
+2. **Install backend dependencies**
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. **Install frontend dependencies**
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+## Running the Application
+
+1. **Start the backend server**
+   ```bash
+   cd backend
+   npm start
+   ```
+   The backend will run on http://localhost:5001
+
+2. **Start the frontend development server**
+   ```bash
+   cd frontend
+   npm start
+   ```
+   The frontend will run on http://localhost:3000
+
+3. **Open your browser** and navigate to http://localhost:3000
+
+## Usage
+
+1. Fill out the enrollment certificate form with:
+   - Student Full Name
+   - Date of Birth
+   - Program Name
+   - Enrollment Date
+   - Expected Graduation Date
+
+2. Click "Generate Certificate" to create and download the PDF
+
+3. The certificate will automatically download with a professional layout
+
+## API Endpoints
+
+- `POST /generate-pdf` - Generate enrollment certificate
+- `GET /health` - Health check endpoint
+- `GET /generate-pdf` - Returns helpful error message (POST only)
+
+## Project Structure
+
+```
+certificate-generator/
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── uploads/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── PdfForm.js
+│   │   │   └── PdfForm.css
+│   │   ├── App.js
+│   │   └── App.css
+│   └── package.json
+└── README.md
+```
+
+## Features
+
+- ✅ Professional PDF layout with borders
+- ✅ Proper typography and spacing
+- ✅ Centered content alignment
+- ✅ Automatic file download
+- ✅ Form validation
+- ✅ Error handling
+- ✅ Responsive design
+
+## License
+
+MIT License 
