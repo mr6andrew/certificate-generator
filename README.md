@@ -111,4 +111,8 @@ certificate-generator/
 
 ## License
 
-MIT License 
+MIT License
+
+---
+
+**Note**: This project generates professional enrollment certificates with proper formatting and alignment. 
