@@ -1,0 +1,23 @@
+{
+  "name": "certificate-generator",
+  "version": "1.0.0",
+  "description": "A full-stack web application for generating professional enrollment certificates in PDF format",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "cd backend && npm run dev",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["certificate", "pdf", "generator", "react", "nodejs"],
+  "author": "mr6andrew",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pdfkit": "^0.14.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 
