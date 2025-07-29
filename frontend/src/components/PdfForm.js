@@ -26,7 +26,7 @@ const PdfForm = () => {
     setError('');
 
     try {
-      const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+      const apiUrl = process.env.REACT_APP_API_URL || 'https://certificate-generator-frontend-production.up.railway.app';
       const response = await fetch(`${apiUrl}/generate-pdf`, {
         method: 'POST',
         headers: {
