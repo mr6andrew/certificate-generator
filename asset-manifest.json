@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/certificate-generator/static/css/main.ba55b22d.css",
+    "main.js": "/certificate-generator/static/js/main.6ac85a70.js",
+    "static/js/453.670e15c7.chunk.js": "/certificate-generator/static/js/453.670e15c7.chunk.js",
+    "index.html": "/certificate-generator/index.html",
+    "main.ba55b22d.css.map": "/certificate-generator/static/css/main.ba55b22d.css.map",
+    "main.6ac85a70.js.map": "/certificate-generator/static/js/main.6ac85a70.js.map",
+    "453.670e15c7.chunk.js.map": "/certificate-generator/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba55b22d.css",
+    "static/js/main.6ac85a70.js"
+  ]
+}
