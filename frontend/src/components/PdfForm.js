@@ -26,7 +26,8 @@ const PdfForm = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:5001/generate-pdf', {
+      const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+      const response = await fetch(`${apiUrl}/generate-pdf`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

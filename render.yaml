@@ -1,0 +1,22 @@
+services:
+  # Backend API service
+  - type: web
+    name: certificate-generator-backend
+    env: node
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+
+  # Frontend service
+  - type: web
+    name: certificate-generator-frontend
+    env: static
+    plan: free
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: ./frontend/build
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://certificate-generator-backend.onrender.com 
